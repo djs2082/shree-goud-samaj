@@ -1,0 +1,9 @@
+.landing-page-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(212, 115, 24, 0.895);
+}
+
+#ganesha-photo {
+  width: 100px;
+}

@@ -1,0 +1,36 @@
+#suggestion-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  width: clac(100vw - 64px);
+  padding: 32px 32px 0 32px;
+  background-color: rgba(49, 21, 2, 0.9);
+  color: white;
+}
+.form-field {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: flex-start;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.form-field input {
+  width: 100%;
+}
+
+.form-field textarea {
+  resize: none;
+  height: 300px;
+  width: 100%;
+}
+
+#suggestion-form button {
+  height: 32px;
+  width: 320px;
+  border-radius: 4px;
+  background-color: rgba(141, 15, 160, 0.52);
+  color: rgb(25, 2, 24);
+}
